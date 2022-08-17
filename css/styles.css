@@ -1,1 +1,34 @@
 /*# sourceMappingURL=styles.css.map */
+/* use rem for font size  */
+body {
+  margin: 0;
+  background-color: #a9cca3;
+}
+.grid-container {
+  grid-template-columns: auto;
+  grid-template-rows: 1fr;
+}
+.profile-pic {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+}
+header {
+  background-color: #314f2b;
+}
+h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1e311b;
+}
+.nav-btn {
+  width: 2rem;
+}
