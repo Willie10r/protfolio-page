@@ -34,7 +34,11 @@ nav {
 }
 .gallery {
   width: 100px;
-  height: 100px;
+}
+.pages-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 4rem;
 }
 .row {
   display: flex;
