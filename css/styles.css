@@ -32,3 +32,12 @@ nav {
 .nav-btn {
   width: 2rem;
 }
+.gallery {
+  width: 100px;
+  height: 100px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
