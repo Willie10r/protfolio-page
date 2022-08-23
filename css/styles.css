@@ -40,6 +40,12 @@ nav {
   height: 80px;
   border-radius: 4rem;
 }
+#imgs {
+  width: 60%;
+  position: fixed;
+  top: 40%;
+  left: 20%;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
