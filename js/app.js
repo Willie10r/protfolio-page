@@ -9,7 +9,7 @@ addEventListener("click",(e) => {
     let element = e.target;
     modal.style.display = "block";
     modalImg.src = element.src;
-    captionText.innerHTML = this.alt;}
+    captionText.innerHTML = element.alt;}
 });
 span.onclick = function() {
     modal.style.display = "none";

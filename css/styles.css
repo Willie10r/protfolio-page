@@ -36,6 +36,13 @@ nav {
   width: 2rem;
   margin-top: 0.25rem;
 }
+#hm-btn:hover,
+#ab-btn:hover,
+#pro-btn:hover,
+#con-btn:hover {
+  background-color: lightgreen;
+}
+
 #about {
   margin: 0.25rem 1rem;
 }
@@ -69,6 +76,9 @@ nav {
 .gallery {
   width: 75px;
 }
+#portfolio {
+  margin: 0px 10px;
+}
 .grid-container-projects {
   display: grid;
   grid-template-columns: auto;
@@ -77,12 +87,12 @@ nav {
     "p1 p2"
     "p3 p4";
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 #pro-1 {
   grid-area: p1;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 #pro-2 {
   grid-area: p2;
@@ -115,15 +125,56 @@ nav {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(66, 80, 64, 0.9);
 }
 #imgs {
-  width: 60%;
+  width: 100%;
   position: fixed;
   top: 40%;
-  left: 20%;
+  left: 0;
 }
 footer {
   margin-bottom: 4rem;
+}
+@media (min-width: 768px) {
+  body {
+    margin-left: 35px;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 95%;
+  }
+  #hm-btn,
+  #ab-btn,
+  #pro-btn,
+  #con-btn {
+    margin-bottom: 20px;
+  }
+  #about {
+    margin-bottom: 80px;
+  }
+  .grid-container-photos {
+    margin-bottom: 100px;
+  }
+  .gallery {
+    width: 160px;
+  }
+  .pages-photo {
+    width: 190px;
+    height: 150px;
+    border-radius: 5rem;
+  }
+  #pro-1 {
+    margin-right: 60px;
+    margin-bottom: 40px;
+  }
+  #contact {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 1024px) {
 }
