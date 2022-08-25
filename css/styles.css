@@ -148,6 +148,9 @@ footer {
     left: 0;
     right: 95%;
   }
+  .nav-btn {
+    margin-left: 2px;
+  }
   #hm-btn,
   #ab-btn,
   #pro-btn,
