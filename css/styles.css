@@ -130,9 +130,23 @@ nav {
 #imgs {
   width: 100%;
   position: fixed;
-  top: 40%;
+  top: 20%;
   left: 0;
 }
+#caption {
+  position: relative;
+  text-align: center;
+  top: 70%;
+  color: #a9cca3;
+  font-size: x-large;
+  font-weight: 900;
+}
+.close {
+  position: fixed;
+  top: 10%;
+  right: 0%;
+}
+
 footer {
   margin-bottom: 4rem;
 }
@@ -143,10 +157,10 @@ footer {
   nav {
     flex-direction: column;
     justify-content: flex-start;
+    width: 40px;
     top: 0;
     bottom: 0;
     left: 0;
-    right: 95%;
   }
   .nav-btn {
     margin-left: 2px;
@@ -178,6 +192,34 @@ footer {
   #contact {
     margin-top: 100px;
   }
+  #imgs {
+    position: relative;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0%;
+  }
+  #caption {
+    position: fixed;
+    top: 5%;
+    left: 25%;
+    right: 25%;
+  }
+  .close {
+    position: fixed;
+    top: 1%;
+    right: 0%;
+  }
 }
 @media (min-width: 1024px) {
+  .grid-container-main,
+  footer {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgs {
+    width: 38%;
+  }
 }
