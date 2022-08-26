@@ -87,26 +87,37 @@ nav {
     "p1 p2"
     "p3 p4";
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 #pro-1 {
   grid-area: p1;
   margin-right: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 #pro-2 {
   grid-area: p2;
+  margin-right: 20px;
+  margin-bottom: 40px;
 }
 #pro-3 {
   grid-area: p3;
+  margin-right: 20px;
+  margin-bottom: 30px;
 }
 #pro-4 {
   grid-area: p4;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.project-text {
+  text-align: center;
 }
 .pages-photo {
   width: 100px;
   height: 100px;
   border-radius: 4rem;
+  display: block;
+  margin: 0 auto;
 }
 #contact {
   display: flex;
@@ -184,9 +195,22 @@ footer {
     width: 190px;
     height: 150px;
     border-radius: 5rem;
+    margin-bottom: 20px;
   }
   #pro-1 {
     margin-right: 60px;
+    margin-bottom: 40px;
+  }
+  #pro-2 {
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  #pro-3 {
+    margin-right: 60px;
+    margin-bottom: 40px;
+  }
+  #pro-4 {
+    margin-right: 0px;
     margin-bottom: 40px;
   }
   #contact {
