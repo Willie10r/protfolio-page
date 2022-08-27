@@ -46,6 +46,9 @@ nav {
 #about {
   margin: 0.25rem 1rem;
 }
+.title {
+  text-align: center;
+}
 .grid-container-photos {
   display: grid;
   grid-template-columns: auto;
@@ -122,6 +125,9 @@ nav {
 #contact {
   display: flex;
   justify-content: space-around;
+  margin-top: 10px;
+}
+#socials {
   margin-top: 40px;
 }
 ul {
@@ -236,8 +242,11 @@ footer {
     margin-right: 0px;
     margin-bottom: 40px;
   }
-  #contact {
+  #socials {
     margin-top: 100px;
+  }
+  #contact {
+    margin-top: 20px;
   }
   #imgs {
     position: relative;
