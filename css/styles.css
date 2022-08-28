@@ -88,7 +88,8 @@ nav {
   grid-template-rows: auto;
   grid-template-areas:
     "p1 p2"
-    "p3 p4";
+    "p3 p4"
+    "p5 p6";
   justify-content: center;
   margin-top: 60px;
 }
@@ -109,6 +110,16 @@ nav {
 }
 #pro-4 {
   grid-area: p4;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+#pro-5 {
+  grid-area: p5;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+#pro-6 {
+  grid-area: p6;
   margin-right: 20px;
   margin-bottom: 30px;
 }
