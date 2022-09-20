@@ -1,0 +1,90 @@
+@media (min-width: 768px) {
+    body {
+      margin-left: 35px;
+    }
+    nav {
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 40px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+    }
+    .nav-btn {
+      margin-left: 2px;
+    }
+    #hm-btn,
+    #ab-btn,
+    #pro-btn,
+    #con-btn {
+      margin-bottom: 20px;
+    }
+    #about {
+      margin-bottom: 80px;
+    }
+    .grid-container-photos {
+      margin-bottom: 100px;
+    }
+    .gallery {
+      width: 160px;
+    }
+    .pages-photo {
+      width: 190px;
+      height: 150px;
+      border-radius: 5rem;
+      margin-bottom: 20px;
+    }
+    #pro-1 {
+      margin-right: 60px;
+      margin-bottom: 40px;
+    }
+    #pro-2 {
+      margin-right: 0px;
+      margin-bottom: 40px;
+    }
+    #pro-3 {
+      margin-right: 60px;
+      margin-bottom: 40px;
+    }
+    #pro-4 {
+      margin-right: 0px;
+      margin-bottom: 40px;
+    }
+    #socials {
+      margin-top: 100px;
+    }
+    #contact {
+      margin-top: 20px;
+    }
+    #imgs {
+      position: relative;
+      width: 60%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      top: 0%;
+    }
+    #caption {
+      position: fixed;
+      top: 5%;
+      left: 25%;
+      right: 25%;
+    }
+    .close {
+      position: fixed;
+      top: 1%;
+      right: 0%;
+    }
+  }
+  @media (min-width: 1024px) {
+    .grid-container-main,
+    footer {
+      width: 768px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #imgs {
+      width: 38%;
+    }
+  }
+  
